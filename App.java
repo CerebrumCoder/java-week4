@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // This
         // double[] myList = new double[10];
         // Is equals to
-        double[] myList = new double[4];
+        double[] myList = {24.0, 34.0, 100.0, 25.0};
 
         // int[] values = new int[5];
         // for (int i = 1; i < 5; i++) {
@@ -34,6 +36,15 @@ public class App {
             myList[i] = myList[j];
             myList[j] = temp;
         }
+        System.out.println(Arrays.toString(myList));
+
+        double temp = myList[0];
+
+        for (int i = 1; i < myList.length; i++) {
+            myList[i - 1] = myList[i];
+        }
+
+        myList[myList.length - 1] = temp;
 
     }
 }
