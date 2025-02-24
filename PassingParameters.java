@@ -17,6 +17,9 @@ public class PassingParameters {
         System.out.println(Arrays.toString(matrix));
     }
 
+    // PPT Slide Lengths of Two-Dimensional Arrays sangat signifikan 
+    // karena hanya di Java bahasa pemorgraman lain belum tentu bisa.
+
 }
 
 class B {

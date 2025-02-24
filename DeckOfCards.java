@@ -7,10 +7,10 @@ public class DeckOfCards {
         // Ini bukan best practice
         String[] suits = { "Spades", "Hearts", "Diamonds", "Clubs" };
         // Yang bener:
-        public enum Suit {CLUBS, HEARTS, SPADES, DIAMONDS};
+        // public enum Suit {CLUBS, HEARTS, SPADES, DIAMONDS};
 
-        Suit suit;
-        suit = Suit.CLUBS;
+        // Suit suit;
+        // suit = Suit.CLUBS;
 
         // SLIDE KE 113
 
